@@ -1,0 +1,27 @@
+from FlyingVehicles import  Rocket, Aircraft
+import numpy as np
+
+class Director:
+
+    __builder = None
+
+    def setBuilder(self, builder):
+        self.__builder = builder
+        
+    def getAircraft(self, X, rocket_coor, mediator, num_of_rockets = 0):
+        aircraft = Aircraft(mediator)
+
+        roc_coor =np.reshape(rocket_coor, (num_of_rockets, -1))
+        bins = self.__builder.getBINS(X)
+        aircraft.setBINS(bins)
+
+        gnss = self.__builder.getGNSS(X)
+        aircraft.setGNSS(gnss)
+
+        for i in range(num_of_rockets):
+            rocket = self.__builder.getRocket(roc_coor[:, i])
+            aircraft.attachRocket(rocket)
+
+        aircraft.X = X
+
+        return aircraft

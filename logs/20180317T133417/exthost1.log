@@ -1,0 +1,34 @@
+[2018-03-17 13:34:26.703] [exthost1] [info] extension host started
+[2018-03-17 13:34:26.752] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-03-17 13:34:26.752] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-03-17 13:34:28.755] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-03-17 13:34:28.755] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-03-17 13:34:29.135] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-03-17 13:34:29.135] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-03-17 13:34:29.274] [exthost1] [info] ExtensionService#_doActivateExtension ionutvmi.path-autocomplete {"startup":true,"activationEvent":"*"}
+[2018-03-17 13:34:29.274] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ionutvmi.path-autocomplete-1.8.1/out/src/extension
+[2018-03-17 13:34:29.450] [exthost1] [info] ExtensionService#_doActivateExtension schneiderpat.aspnet-helper {"startup":true,"activationEvent":"*"}
+[2018-03-17 13:34:29.450] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/out/src/extension
+[2018-03-17 13:34:29.637] [exthost1] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-03-17 13:34:29.637] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vscodevim.vim-0.11.2/out/extension
+[2018-03-17 13:34:31.572] [exthost1] [info] eager extensions activated
+[2018-03-17 14:47:34.340] [exthost1] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-03-17 14:47:34.341] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/python/out/pythonMain
+[2018-03-17 14:47:34.368] [exthost1] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-03-17 14:47:34.369] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ms-python.python-2018.2.1/out/client/extension
+[2018-03-17 14:47:36.130] [exthost1] [info] ExtensionService#_doActivateExtension tht13.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-03-17 14:47:36.130] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/tht13.python-0.2.3/out/client/src/pythonMain
+[2018-03-17 14:47:37.751] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-03-17 14:47:37.752] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-03-17 14:47:38.155] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-03-17 14:47:38.155] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json/client/out/jsonMain
+[2018-03-17 16:00:26.688] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.csharp {"startup":false,"activationEvent":"onDebug"}
+[2018-03-17 16:00:26.688] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ms-vscode.csharp-1.14.0/out/src/main
+[2018-03-17 16:00:28.316] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.mono-debug {"startup":false,"activationEvent":"onDebug"}
+[2018-03-17 16:00:28.316] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ms-vscode.mono-debug-0.15.8/out/extension
+[2018-03-17 16:00:28.801] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-03-17 16:00:28.801] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/ms-vscode.node-debug2/out/src/extension
+[2018-03-17 16:00:29.222] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-03-17 16:00:29.222] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/ms-vscode.node-debug/out/node/extension/extension.js
+[2018-03-17 16:01:35.149] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-03-17 16:01:35.149] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html/client/out/htmlMain
