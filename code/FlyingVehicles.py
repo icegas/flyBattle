@@ -1,37 +1,40 @@
 from component import FlyingVehicle, Component
-from facility import  BINS
+from facility import  BINS, GNSS
 import numpy as np
-from math import exp
+from math import atan2, sqrt
+from MathClasses import TransitMatrix 
 
 class Rocket(FlyingVehicle):
 
-    def __init__(self, X, mediator):
-        FlyingVehicle.__init__(self, mediator)
-        self.bins = BINS(X)
-        self.X = X
- 
+    #x, y, z, vx, vy, vz, m ''''' Mass of AV = MASS of fuel + MASS of AV without fuel
+    def __init__(self, thrustCoff, dm, massAV, X, mediator, fuel_mass):
+        FlyingVehicle.__init__(self, thrustCoff, dm, massAV, X, mediator)
+        self._X = np.append(self._X, fuel_mass)
+        self.bins = BINS(X[: -1])
     
     def model(self, y, t):
         
-        a=0.012277471; b=1.0-a;    
-        D1=((y[0]+a)**2+y[1]**2)**(3.0/2)
-        D2=((y[0]-b)**2+y[1]**2)**(3.0/2)
-        res = [y[2],\
-               y[3],\
-               y[0]+2.0*y[3]-b*(y[0]+a)/D1-a*(y[0]-b)/D2, \
-               y[1]-2.0*y[2]-b*y[1]/D1-a*y[1]/D2
-               ]
-    
+        mass = self._massAV + y[6]
+        F = self._thrust * self._dm
+
+        body_vec = TransitMatrix.globalToBody(y[3 : 6], atan2(self._mediator.X[9] - y[2], self._mediator.X[7] - y[0]), 
+        atan2( sqrt( (self._mediator.X[7] - y[0])**2 + (self._mediator.X[9] - y[2])**2 ), self._mediator.X[8] - y[1]), 0)
+        acc = body_vec * F / mass
+
+        res =[ y[3] , y[4] , y[5], \
+              acc[0], acc[1], acc[2], -self._dm] 
+
         return res
 
 class Aircraft(FlyingVehicle):
 
-    def __init__(self, mediator, X):
-        FlyingVehicle.__init__(self, mediator)
-        self.bins = None
-        self.gnss = None
-        self.rockets = []
-        self.X = X
+    def __init__(self, thrustCoff, dm, massAV, X, mediator,  rThrustCoff = None, rDm = None, rMass = None, rocket_fuel = None, num_of_rockets = 0):
+        FlyingVehicle.__init__(self, thrustCoff, dm, massAV, X, mediator)
+        self.bins = BINS(X)
+        self.gnss = GNSS(X) 
+        self._rockets = []
+        for i in range(num_of_rockets): 
+            self.attachRocket(Rocket(rThrustCoff, rDm, rMass, X[:-1], self._mediator, rocket_fuel))
 
     def setBINS(self, bins):
         self.bins = bins
@@ -40,11 +43,21 @@ class Aircraft(FlyingVehicle):
         self.gnss = gnss
     
     def attachRocket(self, rocket):
-        self.rockets.append(rocket)
-    
-    def attack(self):
-        self.rockets.pop()
+        self._rockets.append(rocket)
+        self._massAV += rocket.getMass() 
+        
+    def dettachRocket(self):
+        rocket = self._rockets.pop()
+        self._massAV -= rocket.getMass() 
+        return rocket
 
     def model(self, y, t):
-        res = [1 / (1 + exp(1 - y[0] * t)), 1 / (1 + exp(1 - y[1] * t )) ]
+        mass = self._massAV + y[6]
+        F = self._thrust * self._dm
+        body_vec = TransitMatrix.globalToBody(y[3 : 6], 0, 0, 0)
+        acc = body_vec * F / mass
+        
+        res = [ y[3] , y[4] , y[5], \
+              acc[0], acc[1], acc[2], -self._dm] 
+
         return res

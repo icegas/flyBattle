@@ -2,7 +2,7 @@ import numpy as np
 from scene import Scene
 from Director import Director
 from mediator import Keeper
-from Builder import AircraftBuilder
+from FlyingVehicles import Aircraft
 
 class A:
 
@@ -24,23 +24,22 @@ class A:
         self._X[key] = value
 '''
   
-from FlyingVehicles import Rocket
-#from Arenstorf import Arenstorf
-#from Isoda import Isoda
 def main():
     keepper = Keeper()
     scene = Scene(0, 18, 1000, keepper)
 
-    director = Director()
-    aircraft_builder = AircraftBuilder()
-    director.setBuilder(aircraft_builder) 
+    #Primary conditions for target Aircraft
+    tX = [4300.0, 4100.0, 4050.0, 700.0, 650.0, 50.0, 1000.0]
 
-    #scene added must be in consequence how objects is created
-    aircraft = director.getAircraft([3, 4], keepper)
-    model2 = Rocket([0.994, 0.0, 0.0, -2.00151], keepper)
-
-    scene.add(model2)
-    scene.add(aircraft)
+    #Primary conditions for  attack Aircraft
+    aX = [4000.0, 4000.0, 4000.0, 700.0, 900.0, 40.0, 1000.0]
+    
+    #thrustcoff, dm, mass, ax, keeper, rockeThrust, rocket_dm, rocket_mass, rocket_fuel_mass
+    atackAircraft = Aircraft(300.0, 0.05, 5000.0, aX, keepper, 800.0, 0.10, 500.0, 100.0,  3)    
+    targetAircraft = Aircraft(300.0, 0.05, 7000.0, tX, keepper)
+    
+    scene.add(atackAircraft) 
+    scene.add(targetAircraft)
     scene.simulate() 
     
 if __name__ == '__main__':

@@ -3,6 +3,7 @@ from MathModel import MathModel
 from Isoda import Isoda
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
 
 class Scene(Component):
     
@@ -18,8 +19,8 @@ class Scene(Component):
         self._components.append(component)
         self._mediator.add(component) 
 
-        self._mediator.subseq = np.append(self._mediator.subseq, len(component.X))
-        self._mediator.X = np.append(self._mediator.X, component.X)
+        self._mediator.subseq = np.append(self._mediator.subseq, len(component.getPosition()))
+        self._mediator.X = np.append(self._mediator.X, component.getPosition())
 
     def remove(self, component):
         self._components.remove(component)
@@ -28,10 +29,13 @@ class Scene(Component):
         counter = 0
         iterator = 0
         models = np.array([]) 
+
         for component, iter in zip(self._components, self._mediator.subseq):
             iterator += iter
             models = np.append(models, component.model(y[counter : iterator], t))
             counter += iter
+        
+        self._mediator.X = y
         return models
 
     def simulate(self):
@@ -39,12 +43,25 @@ class Scene(Component):
         solver = Isoda()
         solver.evaluate(self)
 
-        plt.subplot(211)
-        plt.plot(self.result[:, 0], self.result[:, 1])
-        plt.xlabel('x')
-        plt.ylabel('y')
-        plt.title('My graph')
-        plt.grid(True)
-        plt.subplot(212) #212
-        plt.plot(self.T, self.result[:, 5])
+        rows,cols = 2, 3 #cols - how many plots you want
+        text = ['x', 'y', 'z', 'vx', 'vy', 'vz', 'dm']
+        s = ['AtackAircraft', 'TargetAircraft']
+        gs = gridspec.GridSpec(rows, cols) 
+       
+
+#      res = self.result[::, 0:4]
+#       plt.plot(self.T, res[:, 0])
+#        plt.show()
+
+        for k in range(2):
+            plt.figure()
+
+            for i in range(rows):
+                for j in range(cols):
+                    plt.subplot(gs[i, j])
+                    plt.plot(self.T, self.result[:, i * rows + (j + 7)] if i > 0 else self.result[:, i * rows + j ])
+                   # plt.xlabel(text[j])
+                   # plt.ylabel(self.T)
+                   # plt.title(s[i])
+
         plt.show()

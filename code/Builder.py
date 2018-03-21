@@ -19,7 +19,7 @@ class AircraftBuilder(Builder):
         gnss = GNSS(X)
         return gnss
 
-    def getRocket(self, X, mediator):
-        rocket = Rocket(X, mediator) 
+    def getRocket(self, X, mediator, thrustCoff, dm, massAV, rocket_fuel):
+        rocket = Rocket(thrustCoff, dm, massAV, X, mediator, rocket_fuel) 
         return rocket
         
