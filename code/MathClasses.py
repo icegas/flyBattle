@@ -1,7 +1,9 @@
+import numpy as np
+
 class ProtList:
     
     def __init__(self):
-        self._X = []
+        self._X = np.array([])
     
     @property
     def X(self):

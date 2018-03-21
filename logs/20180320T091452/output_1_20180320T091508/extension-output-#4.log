@@ -1,0 +1,308 @@
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+32,8,warning,W0612:Unused variable 'result'
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 9.62/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Arenstorf
+11,0,warning,W0301:Unnecessary semicolon
+
+------------------------------------------------------------------
+Your code has been rated at 9.09/10 (previous run: 9.09/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+35,25,error,E0602:Undefined variable 'res'
+33,8,warning,W0612:Unused variable 'result'
+
+------------------------------------------------------------------
+Your code has been rated at 8.18/10 (previous run: 9.62/10, -1.43)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+35,25,error,E1101:Instance of 'Scene' has no 'result' member
+
+------------------------------------------------------------------
+Your code has been rated at 8.48/10 (previous run: 8.18/10, +0.30)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 8.48/10, +1.52)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module FlyingVehicles
+40,0,error,E0001:invalid syntax (<string>, line 40)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+36,8,error,E0602:Undefined variable 'plot'
+37,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+-------------------------------------------------------------------
+Your code has been rated at 5.83/10 (previous run: 10.00/10, -4.17)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+37,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.22/10 (previous run: 5.83/10, +1.39)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+37,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.22/10 (previous run: 7.22/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+37,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.22/10 (previous run: 7.22/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+38,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+44,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.30/10 (previous run: 7.22/10, +0.08)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+38,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+44,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.30/10 (previous run: 7.30/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+38,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+44,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.30/10 (previous run: 7.30/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module matplotlib.pyplot
+2217,0,warning,W1401:Anomalous backslash in string: '\s'. String constant might be missing an r prefix.
+2217,0,warning,W1401:Anomalous backslash in string: '\.'. String constant might be missing an r prefix.
+2217,0,warning,W1401:Anomalous backslash in string: '\s'. String constant might be missing an r prefix.
+83,8,error,E0401:Unable to import 'wx'
+92,8,error,E0401:Unable to import 'PyQt5.QtWidgets'
+102,12,error,E0401:Unable to import 'gobject'
+194,8,error,E0401:Unable to import 'IPython'
+314,0,error,E0102:function already defined line 42
+3868,20,error,E1101:Module 'matplotlib.cm' has no 'autumn' member
+3882,20,error,E1101:Module 'matplotlib.cm' has no 'bone' member
+3896,20,error,E1101:Module 'matplotlib.cm' has no 'cool' member
+3910,20,error,E1101:Module 'matplotlib.cm' has no 'copper' member
+3924,20,error,E1101:Module 'matplotlib.cm' has no 'flag' member
+3938,20,error,E1101:Module 'matplotlib.cm' has no 'gray' member
+3952,20,error,E1101:Module 'matplotlib.cm' has no 'hot' member
+3966,20,error,E1101:Module 'matplotlib.cm' has no 'hsv' member
+3980,20,error,E1101:Module 'matplotlib.cm' has no 'jet' member
+3994,20,error,E1101:Module 'matplotlib.cm' has no 'pink' member
+4008,20,error,E1101:Module 'matplotlib.cm' has no 'prism' member
+4022,20,error,E1101:Module 'matplotlib.cm' has no 'spring' member
+4036,20,error,E1101:Module 'matplotlib.cm' has no 'summer' member
+4050,20,error,E1101:Module 'matplotlib.cm' has no 'winter' member
+4064,20,error,E1101:Module 'matplotlib.cm' has no 'magma' member
+4078,20,error,E1101:Module 'matplotlib.cm' has no 'inferno' member
+4092,20,error,E1101:Module 'matplotlib.cm' has no 'plasma' member
+4106,20,error,E1101:Module 'matplotlib.cm' has no 'viridis' member
+4120,20,error,E1101:Module 'matplotlib.cm' has no 'nipy_spectral' member
+4141,20,error,E1101:Module 'matplotlib.cm' has no 'spectral' member
+
+-----------------------------------
+Your code has been rated at 9.13/10
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+38,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+44,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.30/10 (previous run: 7.30/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+38,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+44,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.30/10 (previous run: 7.30/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+38,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+44,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.30/10 (previous run: 7.30/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+31,0,error,E0001:unexpected indent (<string>, line 31)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+31,0,error,E0001:unexpected indent (<string>, line 31)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+39,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+45,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.30/10 (previous run: 7.30/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+39,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+45,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.37/10 (previous run: 7.30/10, +0.07)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+39,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+45,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.37/10 (previous run: 7.37/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+39,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+45,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.37/10 (previous run: 7.37/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+39,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+45,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.30/10 (previous run: 7.37/10, -0.07)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+37,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.22/10 (previous run: 7.30/10, -0.08)
+

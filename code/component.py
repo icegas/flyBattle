@@ -1,8 +1,13 @@
 import abc
+from MathModel import MathModel
+import numpy as np
 
-class Component:
+class Component(MathModel):
+
+    X = np.array([]) 
     
-    __metaclass__ = abc.ABCMeta
+    def model(self, y, t):
+        pass
 
 '''    @abc.abstractmethod
     def getPosition(self):
@@ -12,12 +17,19 @@ class Component:
     def setPosition(self):
         pass
 '''
-class Vehicle:
+class Vehicle(Component):
 
     def __init__(self, mediator):
         self._mediator = mediator
 
+    
+    def model(self, y, t):
+        pass
+
 class FlyingVehicle(Vehicle):
 
     def __init__(self, mediator):
-        super().__init__(mediator)    
+        Vehicle.__init__(self, mediator)    
+    
+    def model(self, y, t):
+        pass

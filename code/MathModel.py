@@ -7,7 +7,8 @@ class MathModel(object):
     def __init__(self, t0, t1, steps, y0):
         self._t = np.linspace(t0, t1, steps)
         self._y = y0
-        
+    
+    result = []
 
     @property    
     def T(self):

@@ -1,0 +1,22 @@
+[2018-03-20 12:48:02.670] [exthost1] [info] extension host started
+[2018-03-20 12:48:02.732] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-03-20 12:48:02.732] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-03-20 12:48:03.006] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-03-20 12:48:03.006] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-03-20 12:48:03.322] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-03-20 12:48:03.322] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-03-20 12:48:03.372] [exthost1] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-03-20 12:48:03.373] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/vscodevim.vim-0.11.2/out/extension
+[2018-03-20 12:48:05.275] [exthost1] [info] eager extensions activated
+[2018-03-20 12:48:05.286] [exthost1] [info] ExtensionService#_doActivateExtension vscode.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-03-20 12:48:05.286] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/python/out/pythonMain
+[2018-03-20 12:48:05.316] [exthost1] [info] ExtensionService#_doActivateExtension donjayamanne.jupyter {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-03-20 12:48:05.316] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/donjayamanne.jupyter-1.1.4/out/src/extension
+[2018-03-20 12:48:09.252] [exthost1] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"activationEvent":"onLanguage:python"}
+[2018-03-20 12:48:09.252] [exthost1] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ms-python.python-2018.2.1/out/client/extension
+[2018-03-20 12:48:23.147] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-03-20 12:48:23.147] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html/client/out/htmlMain
+[2018-03-20 12:53:53.610] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-03-20 12:53:53.610] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/ms-vscode.node-debug2/out/src/extension
+[2018-03-20 12:53:53.649] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-03-20 12:53:53.649] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/ms-vscode.node-debug/out/node/extension/extension.js

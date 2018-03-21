@@ -1,0 +1,769 @@
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+25,4,warning,W0612:Unused variable 'a'
+
+------------------------------------------------------------------
+Your code has been rated at 9.44/10 (previous run: 9.44/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Director
+12,19,error,E1121:Too many positional arguments for constructor call
+
+-------------------------------------------------------------------
+Your code has been rated at 7.06/10 (previous run: 10.00/10, -2.94)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Arenstorf
+11,0,error,E0001:expected an indented block (<string>, line 11)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Arenstorf
+11,0,error,E0001:expected an indented block (<string>, line 11)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Arenstorf
+11,0,error,E0001:expected an indented block (<string>, line 11)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+2,0,error,E0401:Unable to import 'Arenstorf'
+30,4,warning,W0612:Unused variable 'a'
+
+------------------------------------------------------------------
+Your code has been rated at 5.71/10 (previous run: 9.44/10, -3.73)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+28,8,error,E1120:No value for argument 'x' in constructor call
+28,8,error,E1120:No value for argument 'y' in constructor call
+
+------------------------------------------------------------------
+Your code has been rated at 3.33/10 (previous run: 5.71/10, -2.38)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module FlyingVehicles
+16,0,error,E0001:expected an indented block (<string>, line 16)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 3.33/10, +6.67)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Arenstorf
+11,0,error,E0001:expected an indented block (<string>, line 11)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module FlyingVehicles
+16,0,error,E0001:expected an indented block (<string>, line 16)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Director
+1,0,error,E0401:Unable to import 'FlyingVehicles'
+
+------------------------------------------------------------------
+Your code has been rated at 7.06/10 (previous run: 7.06/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Builder
+4,0,error,E0401:Unable to import 'FlyingVehicles'
+
+-------------------------------------------------------------------
+Your code has been rated at 7.62/10 (previous run: 10.00/10, -2.38)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+13,27,error,E0602:Undefined variable 't0'
+13,31,error,E0602:Undefined variable 't1'
+13,35,error,E0602:Undefined variable 'steps'
+13,42,error,E0602:Undefined variable 'X'
+
+---------------------------------------------------------------------
+Your code has been rated at -1.11/10 (previous run: 10.00/10, -11.11)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+---------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: -1.11/10, +11.11)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+34,0,error,E0001:invalid syntax (<string>, line 34)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+34,0,error,E0001:expected an indented block (<string>, line 34)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+34,0,error,E0001:expected an indented block (<string>, line 34)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+34,0,error,E0001:expected an indented block (<string>, line 34)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+27,0,error,E0001:invalid syntax (<string>, line 27)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+34,0,error,E0001:expected an indented block (<string>, line 34)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+34,0,error,E0001:expected an indented block (<string>, line 34)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+34,0,error,E0001:expected an indented block (<string>, line 34)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+35,0,error,E0001:expected an indented block (<string>, line 35)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+35,23,error,E0602:Undefined variable 'j'
+37,14,error,E0602:Undefined variable 'j'
+
+-------------------------------------------------------------------
+Your code has been rated at 4.44/10 (previous run: 10.00/10, -5.56)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+37,14,error,E0602:Undefined variable 'j'
+
+------------------------------------------------------------------
+Your code has been rated at 7.22/10 (previous run: 4.44/10, +2.78)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 7.22/10, +2.78)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+26,53,error,E0602:Undefined variable 'mediator'
+27,26,error,E0602:Undefined variable 'item'
+26,12,warning,W0612:Unused variable 'component'
+
+-------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 10.00/10, -5.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 5.00/10, +5.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+31,4,error,E0211:Method has no argument
+33,33,error,E0602:Undefined variable 'self'
+33,8,warning,W0612:Unused variable 'result'
+
+-------------------------------------------------------------------
+Your code has been rated at 5.77/10 (previous run: 10.00/10, -4.23)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module FlyingVehicles
+15,0,error,E0001:expected an indented block (<string>, line 15)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module FlyingVehicles
+15,0,error,E0001:expected an indented block (<string>, line 15)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module FlyingVehicles
+15,0,error,E0001:expected an indented block (<string>, line 15)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module FlyingVehicles
+14,0,error,E0001:expected an indented block (<string>, line 14)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 7.06/10, +2.94)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Builder
+23,17,error,E1120:No value for argument 'mediator' in constructor call
+
+------------------------------------------------------------------
+Your code has been rated at 7.62/10 (previous run: 7.62/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+33,8,warning,W0612:Unused variable 'result'
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 5.77/10, +3.85)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+40,0,error,E0001:expected an indented block (<string>, line 40)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+36,14,error,E0602:Undefined variable 'Ke'
+37,12,error,E1120:No value for argument 'mediator' in constructor call
+36,4,warning,W0612:Unused variable 'keepper'
+37,4,warning,W0612:Unused variable 'scene'
+
+-------------------------------------------------------------------
+Your code has been rated at 3.68/10 (previous run: 10.00/10, -6.32)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+37,4,warning,W0612:Unused variable 'scene'
+
+------------------------------------------------------------------
+Your code has been rated at 9.47/10 (previous run: 3.68/10, +5.79)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+17,0,error,E0001:expected an indented block (<string>, line 17)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+31,8,warning,W0612:Unused variable 'result'
+
+------------------------------------------------------------------
+Your code has been rated at 9.60/10 (previous run: 9.62/10, -0.02)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 7.62/10, +2.38)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Director
+11,0,error,E0001:invalid syntax (<string>, line 11)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+42,15,error,E1120:No value for argument 'mediator' in method call
+38,4,warning,W0612:Unused variable 'scene'
+42,4,warning,W0612:Unused variable 'aircraft'
+
+------------------------------------------------------------------
+Your code has been rated at 7.08/10 (previous run: 9.47/10, -2.39)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+38,4,warning,W0612:Unused variable 'scene'
+42,4,warning,W0612:Unused variable 'aircraft'
+
+------------------------------------------------------------------
+Your code has been rated at 9.17/10 (previous run: 7.08/10, +2.08)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.17/10, +0.83)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+45,0,error,E0001:expected an indented block (<string>, line 45)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+44,0,error,E0001:expected an indented block (<string>, line 44)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+39,14,error,E0602:Undefined variable 'i'
+
+-------------------------------------------------------------------
+Your code has been rated at 7.73/10 (previous run: 10.00/10, -2.27)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 7.73/10, +2.27)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+31,8,warning,W0612:Unused variable 'result'
+
+------------------------------------------------------------------
+Your code has been rated at 9.60/10 (previous run: 9.60/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Arenstorf
+11,0,error,E0001:expected an indented block (<string>, line 11)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Arenstorf
+11,0,warning,W0301:Unnecessary semicolon
+12,0,warning,W0301:Unnecessary semicolon
+13,0,warning,W0301:Unnecessary semicolon
+
+-------------------------------------------------------------------
+Your code has been rated at 7.27/10 (previous run: 10.00/10, -2.73)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Arenstorf
+11,0,warning,W0301:Unnecessary semicolon
+
+------------------------------------------------------------------
+Your code has been rated at 9.09/10 (previous run: 7.27/10, +1.82)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+37,4,warning,W0612:Unused variable 'a'
+
+-------------------------------------------------------------------
+Your code has been rated at 9.52/10 (previous run: 10.00/10, -0.48)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.52/10, +0.48)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+------------------------------------
+Your code has been rated at 10.00/10
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+31,8,warning,W0612:Unused variable 'result'
+
+------------------------------------------------------------------
+Your code has been rated at 9.60/10 (previous run: 9.60/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+32,8,warning,W0612:Unused variable 'result'
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 9.60/10, +0.02)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+32,8,warning,W0612:Unused variable 'result'
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 9.62/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+31,8,warning,W0612:Unused variable 'result'
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 9.62/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+32,8,warning,W0612:Unused variable 'result'
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 9.62/10, +0.00)
+

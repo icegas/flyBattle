@@ -1,0 +1,34 @@
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+49,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+49,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 6.34/10 (previous run: 6.34/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+49,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 6.34/10 (previous run: 6.34/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

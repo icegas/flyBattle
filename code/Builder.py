@@ -1,7 +1,7 @@
 from facility import GNSS, BINS
 from Director import Director
 import numpy as np
-from FlyingVehicles import  Rocket
+from FlyingVehicles import Rocket
 
 class Builder:
 
@@ -19,7 +19,7 @@ class AircraftBuilder(Builder):
         gnss = GNSS(X)
         return gnss
 
-    def getRocket(self, X):
-        rocket = Rocket(X) 
+    def getRocket(self, X, mediator):
+        rocket = Rocket(X, mediator) 
         return rocket
         

@@ -1,0 +1,4 @@
+[2018-03-20 09:14:53.005] [main] [info] update#setState idle
+[2018-03-20 09:15:23.016] [main] [info] update#setState checking for updates
+[2018-03-20 09:15:42.209] [main] [error] Error: net::ERR_CONNECTION_CLOSED
+[2018-03-20 09:15:42.210] [main] [info] update#setState idle

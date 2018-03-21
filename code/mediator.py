@@ -7,15 +7,17 @@ class Mediator:
     def getModelsPos(self):
         pass
 
-class Kepper(Mediator):
+class Keeper(Mediator):
 
     def __init__(self):
         self._colleagues = []
+        self.X = np.array([])
+        self.subseq = np.array([], dtype=int)
 
     def add(self, colleague):
         self._colleagues.append(colleague)
     
-    def getModelsPos(self):
+'''    def getModelsPos(self):
         self.models_pos = []
         for colleague in self._colleagues:
             self.models_pos.append(colleague.X)
@@ -25,4 +27,4 @@ class Kepper(Mediator):
         counter = 0
         for colleague in self._colleagues:
             colleague.X = self.models_pos[counter]
-            counter += 1
+            counter += 1'''

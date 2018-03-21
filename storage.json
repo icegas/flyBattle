@@ -2,7 +2,9 @@
     "telemetry.machineId": "28ed2bf259d01a7b8889ea5e907ae64140cd0d57eb4440712501abc205fd8642",
     "openedPathsList": {
         "workspaces": [
-            "/root/Desktop/flyBattle",
+            "/root/Desktop/studying/flyBattle",
+            "/root/Desktop/studying/flyBattle",
+            "/root/Desktop/studying/flyBattle",
             "/root/Desktop/flyBattle"
         ],
         "files": []
@@ -11,6 +13,16 @@
         "workbench.action.files.newUntitledFile": {
             "id": "workbench.action.files.newUntitledFile",
             "label": "Ctrl+N",
+            "isNative": true
+        },
+        "workbench.action.files.openFolder": {
+            "id": "workbench.action.files.openFolder",
+            "label": "Ctrl+K Ctrl+O",
+            "isNative": false
+        },
+        "workbench.action.files.openFile": {
+            "id": "workbench.action.files.openFile",
+            "label": "Ctrl+O",
             "isNative": true
         },
         "workbench.action.reopenClosedEditor": {
@@ -265,7 +277,7 @@
         },
         "workbench.action.toggleEditorGroupLayout": {
             "id": "workbench.action.toggleEditorGroupLayout",
-            "label": "Shift+Alt+1",
+            "label": "Shift+Alt+0",
             "isNative": true
         },
         "workbench.action.toggleSidebarVisibility": {
@@ -444,13 +456,13 @@
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "folderPath": "/root/Desktop/flyBattle",
-            "backupPath": "/root/Desktop/flyBattle/Backups/6f2611f15e9e93dc26f1394e434482be",
+            "folderPath": "/root/Desktop/studying/flyBattle",
+            "backupPath": "/root/Desktop/studying/flyBattle/Backups/58ef7ccee9179d719033f70a42318900",
             "uiState": {
                 "mode": 0,
-                "x": 0,
+                "x": 51,
                 "y": 59,
-                "width": 1920,
+                "width": 1869,
                 "height": 1021
             }
         }

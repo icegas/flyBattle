@@ -1,0 +1,167 @@
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+37,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 7.22/10 (previous run: 7.22/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+38,13,error,E1120:No value for argument 'mediator' in constructor call
+38,44,error,E0602:Undefined variable 'mediator'
+38,4,warning,W0612:Unused variable 'model2'
+
+-------------------------------------------------------------------
+Your code has been rated at 5.22/10 (previous run: 10.00/10, -4.78)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+38,13,error,E1120:No value for argument 'mediator' in constructor call
+40,4,error,E1120:No value for argument 'component' in method call
+38,4,warning,W0612:Unused variable 'model2'
+
+------------------------------------------------------------------
+Your code has been rated at 5.42/10 (previous run: 5.22/10, +0.20)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module ex
+38,13,error,E1120:No value for argument 'mediator' in constructor call
+
+------------------------------------------------------------------
+Your code has been rated at 7.92/10 (previous run: 5.42/10, +2.50)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 7.92/10, +2.08)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+37,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 5.83/10 (previous run: 7.22/10, -1.39)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+21,69,error,E0602:Undefined variable 'X'
+22,55,error,E0602:Undefined variable 'X'
+40,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+46,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+46,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 3.42/10 (previous run: 5.83/10, -2.41)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+40,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+46,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+46,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 6.05/10 (previous run: 3.42/10, +2.63)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+41,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+47,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+47,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 6.15/10 (previous run: 6.05/10, +0.10)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module Arenstorf
+11,0,warning,W0301:Unnecessary semicolon
+
+------------------------------------------------------------------
+Your code has been rated at 9.09/10 (previous run: 9.09/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module FlyingVehicles
+16,0,warning,W0301:Unnecessary semicolon
+
+-------------------------------------------------------------------
+Your code has been rated at 9.71/10 (previous run: 10.00/10, -0.29)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module scene
+43,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+49,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+49,0,error,E1126:Sequence index is not an int, slice, or instance with __index__
+
+------------------------------------------------------------------
+Your code has been rated at 6.34/10 (previous run: 6.15/10, +0.19)
+
