@@ -1,0 +1,6 @@
+[2018-03-24 12:31:34.798] [main] [info] update#setState idle
+[2018-03-24 12:32:04.802] [main] [info] update#setState checking for updates
+[2018-03-24 12:32:04.973] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+[2018-03-24 12:32:04.975] [main] [info] update#setState idle
+[2018-03-24 13:32:05.043] [main] [info] update#setState checking for updates
+[2018-03-24 13:32:07.085] [main] [info] update#setState available for download

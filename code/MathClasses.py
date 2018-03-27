@@ -24,9 +24,8 @@ class TransitMatrix:
 
     @staticmethod
     def globalToBody(vector, psi, gamma, teta):
-        
-        A = np.array([ [ cos(teta) * cos(psi) , sin(teta) , -cos(teta) * sin(psi) ],
-                       [ -cos(gamma) * sin(teta) * cos(psi) + sin(gamma) * sin(psi) , cos(gamma) * cos(teta), cos(gamma) * sin(teta) * sin(psi) + sin(gamma) * cos(psi) ],
-                       [ sin(gamma) * sin(teta) * cos(psi) + cos(gamma) * sin(psi) , -sin(gamma) * cos(teta) , -sin(psi) * sin(teta) * sin(gamma) + cos(psi) * cos(gamma) ] ])
+        A = np.matrix([ [ cos(psi) * cos(teta), -cos(gamma) * cos(psi) * sin(teta) + sin(gamma) * sin(psi), sin(gamma) * cos(psi) * sin(teta) + cos(gamma) * sin(psi) ],
+                       [ sin(teta), cos(gamma) * cos(teta), -sin(gamma) * cos(teta) ],
+                       [ -cos(teta) * sin(psi), cos(gamma) * sin(psi) * sin(teta) + sin(gamma) * cos(psi), -sin(gamma) * sin(psi) * sin(teta) + cos(gamma) * cos(psi) ]  ] )        
         
         return A.dot(vector)

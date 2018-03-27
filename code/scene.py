@@ -7,23 +7,14 @@ import matplotlib.gridspec as gridspec
 
 class Scene(Component):
     
-    def __init__(self, t0, t1, steps, mediator):
-        self._components = []
-        self._t0 = t0
-        self._t1 = t1
-        self._steps = steps
+    def __init__(self, dt, mediator, R):
+        super().__init__(mediator)
         self._mediator = mediator 
-
-    
-    def add(self, component):
-        self._components.append(component)
-        self._mediator.add(component) 
-
-        self._mediator.subseq = np.append(self._mediator.subseq, len(component.getPosition()))
-        self._mediator.X = np.append(self._mediator.X, component.getPosition())
-
-    def remove(self, component):
-        self._components.remove(component)
+        self._R = R
+        self.res = np.array([])
+        self._t0 = 0.0
+        self._dt = dt
+        self._solver = Isoda()
 
     def model(self, y, t):
         counter = 0
@@ -38,30 +29,21 @@ class Scene(Component):
         self._mediator.X = y
         return models
 
+    def _checkOnHit(self, rX, tX):
+        if( (rX[0] - tX[0]) ** 2 + (rX[1] - tX[1]) ** 2 + (rX[2] - tX[2]) ** 2 < self._R ** 2 ):
+            return True
+        else:
+            return False
+
     def simulate(self):
-        MathModel.__init__(self, self._t0, self._t1, self._steps, self._mediator.X)
-        solver = Isoda()
-        solver.evaluate(self)
 
-        rows,cols = 2, 3 #cols - how many plots you want
-        text = ['x', 'y', 'z', 'vx', 'vy', 'vz', 'dm']
-        s = ['AtackAircraft', 'TargetAircraft']
-        gs = gridspec.GridSpec(rows, cols) 
-       
+        if not len(self.res):
+            self.res = np.array(self._mediator.X)       
 
-#      res = self.result[::, 0:4]
-#       plt.plot(self.T, res[:, 0])
-#        plt.show()
-
-        for k in range(2):
-            plt.figure()
-
-            for i in range(rows):
-                for j in range(cols):
-                    plt.subplot(gs[i, j])
-                    plt.plot(self.T, self.result[:, i * rows + (j + 7)] if i > 0 else self.result[:, i * rows + j ])
-                   # plt.xlabel(text[j])
-                   # plt.ylabel(self.T)
-                   # plt.title(s[i])
-
-        plt.show()
+        MathModel.__init__(self, self._t0, self._t0 + self._dt, 2, self._mediator.X)
+        self._solver.evaluate(self)
+        self._t0 = self._t0 + self._dt
+        self.res = np.vstack((self.res, self.result[1]))
+        
+        return self._checkOnHit(self._mediator.X[14 : 17], self._mediator.X[7 : 10])
+        

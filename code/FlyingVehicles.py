@@ -1,25 +1,27 @@
 from component import FlyingVehicle, Component
 from facility import  BINS, GNSS
 import numpy as np
-from math import atan2, sqrt
-from MathClasses import TransitMatrix 
+from math import atan2, sqrt, degrees,radians
+from pyquaternion import Quaternion
 
 class Rocket(FlyingVehicle):
 
     #x, y, z, vx, vy, vz, m ''''' Mass of AV = MASS of fuel + MASS of AV without fuel
-    def __init__(self, thrustCoff, dm, massAV, X, mediator, fuel_mass):
+    def __init__(self, thrustCoff, dm, massAV, X, mediator):
         FlyingVehicle.__init__(self, thrustCoff, dm, massAV, X, mediator)
-        self._X = np.append(self._X, fuel_mass)
         self.bins = BINS(X[: -1])
-    
+        
+    def add(self):
+        pass
+
     def model(self, y, t):
         
         mass = self._massAV + y[6]
-        F = self._thrust * self._dm
-
-        body_vec = TransitMatrix.globalToBody(y[3 : 6], atan2(self._mediator.X[9] - y[2], self._mediator.X[7] - y[0]), 
-        atan2( sqrt( (self._mediator.X[7] - y[0])**2 + (self._mediator.X[9] - y[2])**2 ), self._mediator.X[8] - y[1]), 0)
-        acc = body_vec * F / mass
+        F = np.array([self._thrust * self._dm, 0, 0])
+        q1 = Quaternion(axis = [0, 0, 1], angle = np.arctan2(self._mediator.X[8] - y[1], self._mediator.X[7] - y[0]))
+        q2 = Quaternion(axis=[0, 1, 0], angle = np.arctan2( -(self._mediator.X[9] - y[2]), sqrt( (self._mediator.X[7] - y[0])**2 + (self._mediator.X[8] - y[1])**2 ) ) ) 
+        q3 = q1 * q2
+        acc = q3.rotate(F) / mass
 
         res =[ y[3] , y[4] , y[5], \
               acc[0], acc[1], acc[2], -self._dm] 
@@ -28,13 +30,12 @@ class Rocket(FlyingVehicle):
 
 class Aircraft(FlyingVehicle):
 
-    def __init__(self, thrustCoff, dm, massAV, X, mediator,  rThrustCoff = None, rDm = None, rMass = None, rocket_fuel = None, num_of_rockets = 0):
+    def __init__(self, thrustCoff, dm, massAV, X, mediator):
         FlyingVehicle.__init__(self, thrustCoff, dm, massAV, X, mediator)
-        self.bins = BINS(X)
-        self.gnss = GNSS(X) 
-        self._rockets = []
-        for i in range(num_of_rockets): 
-            self.attachRocket(Rocket(rThrustCoff, rDm, rMass, X[:-1], self._mediator, rocket_fuel))
+        self.bins = BINS(X[: -1])
+        self.gnss = GNSS(X[: -1]) 
+        self._mediator.subseq = np.append(self._mediator.subseq, len(X))
+        self._mediator.X = np.append(self._mediator.X, X)
 
     def setBINS(self, bins):
         self.bins = bins
@@ -42,20 +43,28 @@ class Aircraft(FlyingVehicle):
     def setGNSS(self, gnss):
         self.gnss = gnss
     
-    def attachRocket(self, rocket):
-        self._rockets.append(rocket)
-        self._massAV += rocket.getMass() 
-        
+    def add(self, component):
+        if not type(component) is Rocket:
+            print("Erorr: Only rocket can be added to aircraft")
+        else:
+            super(Aircraft, self).add(component)
+            self._massAV += component.getMass()
+            
     def dettachRocket(self):
-        rocket = self._rockets.pop()
-        self._massAV -= rocket.getMass() 
-        return rocket
+        rocket = self._components.pop()
+        self._mediator.subseq = np.append(self._mediator.subseq, len(rocket.getPosition()))
+        self._mediator.X = np.append(self._mediator.X, rocket.getPosition())
+        self._massAV -= self.getMass()
+
+        if(len(self._components)):
+            return rocket 
+        else:
+            print("Nothing to remove")
 
     def model(self, y, t):
         mass = self._massAV + y[6]
-        F = self._thrust * self._dm
-        body_vec = TransitMatrix.globalToBody(y[3 : 6], 0, 0, 0)
-        acc = body_vec * F / mass
+        F = np.array([self._thrust * self._dm, 0, 0])
+        acc = F / mass
         
         res = [ y[3] , y[4] , y[5], \
               acc[0], acc[1], acc[2], -self._dm] 

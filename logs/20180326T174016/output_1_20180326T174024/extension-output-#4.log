@@ -1,0 +1,340 @@
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module numpy.core.numeric
+11,0,error,E0611:No name '_fastCopyAndTranspose' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'ALLOW_THREADS' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'BUFSIZE' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'CLIP' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'MAXDIMS' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'MAY_SHARE_BOUNDS' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'MAY_SHARE_EXACT' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'RAISE' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'WRAP' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'arange' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'array' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'broadcast' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'can_cast' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'compare_chararrays' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'concatenate' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'copyto' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'count_nonzero' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'dot' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'dtype' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'empty' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'empty_like' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'flatiter' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'frombuffer' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'fromfile' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'fromiter' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'fromstring' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'inner' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'int_asbuffer' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'lexsort' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'matmul' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'may_share_memory' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'min_scalar_type' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'ndarray' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'nditer' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'nested_iters' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'promote_types' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'putmask' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'result_type' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'set_numeric_ops' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'shares_memory' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'vdot' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'where' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'zeros' in module 'numpy.core.multiarray'
+11,0,error,E0611:No name 'normalize_axis_index' in module 'numpy.core.multiarray'
+22,4,error,E0611:No name 'newbuffer' in module 'numpy.core.multiarray'
+22,4,error,E0611:No name 'getbuffer' in module 'numpy.core.multiarray'
+25,0,error,E0611:No name 'invert' in module 'numpy.core.umath'
+25,0,error,E0611:No name 'sin' in module 'numpy.core.umath'
+25,0,error,E0611:No name 'UFUNC_BUFSIZE_DEFAULT' in module 'numpy.core.umath'
+25,0,error,E0611:No name 'ERR_IGNORE' in module 'numpy.core.umath'
+25,0,error,E0611:No name 'ERR_WARN' in module 'numpy.core.umath'
+25,0,error,E0611:No name 'ERR_RAISE' in module 'numpy.core.umath'
+25,0,error,E0611:No name 'ERR_CALL' in module 'numpy.core.umath'
+25,0,error,E0611:No name 'ERR_PRINT' in module 'numpy.core.umath'
+25,0,error,E0611:No name 'ERR_LOG' in module 'numpy.core.umath'
+25,0,error,E0611:No name 'ERR_DEFAULT' in module 'numpy.core.umath'
+25,0,error,E0611:No name 'PINF' in module 'numpy.core.umath'
+25,0,error,E0611:No name 'NAN' in module 'numpy.core.umath'
+29,0,error,E0611:No name 'longlong' in module 'numpy.core.numerictypes'
+29,0,error,E0611:No name 'intc' in module 'numpy.core.numerictypes'
+29,0,error,E0611:No name 'int_' in module 'numpy.core.numerictypes'
+29,0,error,E0611:No name 'float_' in module 'numpy.core.numerictypes'
+29,0,error,E0611:No name 'complex_' in module 'numpy.core.numerictypes'
+29,0,error,E0611:No name 'bool_' in module 'numpy.core.numerictypes'
+41,4,error,E0401:Unable to import 'cPickle'
+42,4,error,E0401:Unable to import '__builtin__'
+380,0,error,E0102:function already defined line 11
+439,28,error,E1101:Module 'numpy' has no 'string_' member
+440,32,error,E1101:Module 'numpy' has no 'unicode_' member; maybe 'unicode'?
+1154,11,error,E0602:Undefined variable 'multiply'
+1776,12,error,E0602:Undefined variable 'multiply'
+1784,12,error,E0602:Undefined variable 'multiply'
+1785,12,error,E0602:Undefined variable 'multiply'
+1787,12,error,E0602:Undefined variable 'multiply'
+1795,12,error,E0602:Undefined variable 'multiply'
+1798,12,error,E0602:Undefined variable 'multiply'
+1799,12,error,E0602:Undefined variable 'multiply'
+1801,12,error,E0602:Undefined variable 'multiply'
+1802,12,error,E0602:Undefined variable 'multiply'
+1809,12,error,E0602:Undefined variable 'multiply'
+1811,12,error,E0602:Undefined variable 'multiply'
+1812,12,error,E0602:Undefined variable 'multiply'
+1896,38,error,E0602:Undefined variable 'flexible'
+2524,21,error,E0602:Undefined variable 'less_equal'
+2556,23,error,E0602:Undefined variable 'isnan'
+2556,34,error,E0602:Undefined variable 'isnan'
+2757,38,error,E0602:Undefined variable 'SHIFT_DIVIDEBYZERO'
+2758,36,error,E0602:Undefined variable 'SHIFT_OVERFLOW'
+2759,37,error,E0602:Undefined variable 'SHIFT_UNDERFLOW'
+2760,39,error,E0602:Undefined variable 'SHIFT_INVALID'
+2807,24,error,E0602:Undefined variable 'SHIFT_DIVIDEBYZERO'
+2809,24,error,E0602:Undefined variable 'SHIFT_OVERFLOW'
+2811,24,error,E0602:Undefined variable 'SHIFT_UNDERFLOW'
+2813,24,error,E0602:Undefined variable 'SHIFT_INVALID'
+3088,0,warning,W0614:Unused import e from wildcard import
+3088,0,warning,W0614:Unused import euler_gamma from wildcard import
+3088,0,warning,W0614:Unused import geterrobj from wildcard import
+3088,0,warning,W0614:Unused import seterrobj from wildcard import
+3088,0,warning,W0614:Unused import arccos from wildcard import
+3088,0,warning,W0614:Unused import arccosh from wildcard import
+3088,0,warning,W0614:Unused import arcsin from wildcard import
+3088,0,warning,W0614:Unused import arcsinh from wildcard import
+3088,0,warning,W0614:Unused import arctan from wildcard import
+3088,0,warning,W0614:Unused import arctanh from wildcard import
+3088,0,warning,W0614:Unused import cbrt from wildcard import
+3088,0,warning,W0614:Unused import conj from wildcard import
+3088,0,warning,W0614:Unused import conjugate from wildcard import
+3088,0,warning,W0614:Unused import cosh from wildcard import
+3088,0,warning,W0614:Unused import deg2rad from wildcard import
+3088,0,warning,W0614:Unused import degrees from wildcard import
+3088,0,warning,W0614:Unused import exp2 from wildcard import
+3088,0,warning,W0614:Unused import expm1 from wildcard import
+3088,0,warning,W0614:Unused import fabs from wildcard import
+3088,0,warning,W0614:Unused import frexp from wildcard import
+3088,0,warning,W0614:Unused import isinf from wildcard import
+3088,0,warning,W0614:Unused import log from wildcard import
+3088,0,warning,W0614:Unused import log1p from wildcard import
+3088,0,warning,W0614:Unused import log2 from wildcard import
+3088,0,warning,W0614:Unused import logical_not from wildcard import
+3088,0,warning,W0614:Unused import modf from wildcard import
+3088,0,warning,W0614:Unused import rad2deg from wildcard import
+3088,0,warning,W0614:Unused import radians from wildcard import
+3088,0,warning,W0614:Unused import reciprocal from wildcard import
+3088,0,warning,W0614:Unused import rint from wildcard import
+3088,0,warning,W0614:Unused import sign from wildcard import
+3088,0,warning,W0614:Unused import signbit from wildcard import
+3088,0,warning,W0614:Unused import sinh from wildcard import
+3088,0,warning,W0614:Unused import spacing from wildcard import
+3088,0,warning,W0614:Unused import square from wildcard import
+3088,0,warning,W0614:Unused import tan from wildcard import
+3088,0,warning,W0614:Unused import tanh from wildcard import
+3088,0,warning,W0614:Unused import trunc from wildcard import
+3088,0,warning,W0614:Unused import bitwise_and from wildcard import
+3088,0,warning,W0614:Unused import bitwise_or from wildcard import
+3088,0,warning,W0614:Unused import bitwise_xor from wildcard import
+3088,0,warning,W0614:Unused import copysign from wildcard import
+3088,0,warning,W0614:Unused import divide from wildcard import
+3088,0,warning,W0614:Unused import equal from wildcard import
+3088,0,warning,W0614:Unused import float_power from wildcard import
+3088,0,warning,W0614:Unused import floor_divide from wildcard import
+3088,0,warning,W0614:Unused import fmax from wildcard import
+3088,0,warning,W0614:Unused import fmin from wildcard import
+3088,0,warning,W0614:Unused import fmod from wildcard import
+3088,0,warning,W0614:Unused import greater from wildcard import
+3088,0,warning,W0614:Unused import hypot from wildcard import
+3088,0,warning,W0614:Unused import ldexp from wildcard import
+3088,0,warning,W0614:Unused import left_shift from wildcard import
+3088,0,warning,W0614:Unused import less from wildcard import
+3088,0,warning,W0614:Unused import logaddexp from wildcard import
+3088,0,warning,W0614:Unused import logaddexp2 from wildcard import
+3088,0,warning,W0614:Unused import logical_and from wildcard import
+3088,0,warning,W0614:Unused import logical_or from wildcard import
+3088,0,warning,W0614:Unused import logical_xor from wildcard import
+3088,0,warning,W0614:Unused import maximum from wildcard import
+3088,0,warning,W0614:Unused import minimum from wildcard import
+3088,0,warning,W0614:Unused import nextafter from wildcard import
+3088,0,warning,W0614:Unused import not_equal from wildcard import
+3088,0,warning,W0614:Unused import power from wildcard import
+3088,0,warning,W0614:Unused import remainder from wildcard import
+3088,0,warning,W0614:Unused import right_shift from wildcard import
+3088,0,warning,W0614:Unused import subtract from wildcard import
+3088,0,warning,W0614:Unused import true_divide from wildcard import
+3089,0,warning,W0614:Unused import numbers from wildcard import
+3089,0,warning,W0614:Unused import unicode from wildcard import
+3089,0,warning,W0614:Unused import LOWER_TABLE from wildcard import
+3089,0,warning,W0614:Unused import UPPER_TABLE from wildcard import
+3089,0,warning,W0614:Unused import english_lower from wildcard import
+3089,0,warning,W0614:Unused import english_upper from wildcard import
+3089,0,warning,W0614:Unused import english_capitalize from wildcard import
+3089,0,warning,W0614:Unused import sctypeDict from wildcard import
+3089,0,warning,W0614:Unused import sctypeNA from wildcard import
+3089,0,warning,W0614:Unused import allTypes from wildcard import
+3089,0,warning,W0614:Unused import bitname from wildcard import
+3089,0,warning,W0614:Unused import void from wildcard import
+3089,0,warning,W0614:Unused import sctypes from wildcard import
+3089,0,warning,W0614:Unused import genericTypeRank from wildcard import
+3089,0,warning,W0614:Unused import maximum_sctype from wildcard import
+3089,0,warning,W0614:Unused import buffer_type from wildcard import
+3089,0,warning,W0614:Unused import issctype from wildcard import
+3089,0,warning,W0614:Unused import obj2sctype from wildcard import
+3089,0,warning,W0614:Unused import issubclass_ from wildcard import
+3089,0,warning,W0614:Unused import issubsctype from wildcard import
+3089,0,warning,W0614:Unused import nbytes from wildcard import
+3089,0,warning,W0614:Unused import sctype2char from wildcard import
+3089,0,warning,W0614:Unused import cast from wildcard import
+3089,0,warning,W0614:Unused import val from wildcard import
+3089,0,warning,W0614:Unused import name from wildcard import
+3089,0,warning,W0614:Unused import typecodes from wildcard import
+3089,0,warning,W0614:Unused import typeDict from wildcard import
+3089,0,warning,W0614:Unused import typeNA from wildcard import
+3089,0,warning,W0614:Unused import find_common_type from wildcard import
+3089,0,warning,W0614:Unused import bytes from wildcard import
+3089,0,warning,W0614:Unused import long from wildcard import
+3089,0,warning,W0614:Unused import typeinfo from wildcard import
+3089,0,warning,W0614:Unused import datetime_data from wildcard import
+3089,0,warning,W0614:Unused import datetime_as_string from wildcard import
+3089,0,warning,W0614:Unused import busday_offset from wildcard import
+3089,0,warning,W0614:Unused import busday_count from wildcard import
+3089,0,warning,W0614:Unused import is_busday from wildcard import
+3089,0,warning,W0614:Unused import busdaycalendar from wildcard import
+3089,0,warning,W0614:Unused import complex from wildcard import
+3091,0,warning,W0614:Unused import types from wildcard import
+3091,0,warning,W0614:Unused import take from wildcard import
+3091,0,warning,W0614:Unused import reshape from wildcard import
+3091,0,warning,W0614:Unused import choose from wildcard import
+3091,0,warning,W0614:Unused import repeat from wildcard import
+3091,0,warning,W0614:Unused import put from wildcard import
+3091,0,warning,W0614:Unused import swapaxes from wildcard import
+3091,0,warning,W0614:Unused import partition from wildcard import
+3091,0,warning,W0614:Unused import argpartition from wildcard import
+3091,0,warning,W0614:Unused import sort from wildcard import
+3091,0,warning,W0614:Unused import argsort from wildcard import
+3091,0,warning,W0614:Unused import argmax from wildcard import
+3091,0,warning,W0614:Unused import argmin from wildcard import
+3091,0,warning,W0614:Unused import searchsorted from wildcard import
+3091,0,warning,W0614:Unused import resize from wildcard import
+3091,0,warning,W0614:Unused import squeeze from wildcard import
+3091,0,warning,W0614:Unused import diagonal from wildcard import
+3091,0,warning,W0614:Unused import trace from wildcard import
+3091,0,warning,W0614:Unused import ravel from wildcard import
+3091,0,warning,W0614:Unused import shape from wildcard import
+3091,0,warning,W0614:Unused import compress from wildcard import
+3091,0,warning,W0614:Unused import clip from wildcard import
+3091,0,warning,W0614:Unused import sum from wildcard import
+3091,0,warning,W0614:Unused import product from wildcard import
+3091,0,warning,W0614:Unused import sometrue from wildcard import
+3091,0,warning,W0614:Unused import alltrue from wildcard import
+3091,0,warning,W0614:Unused import any from wildcard import
+3091,0,warning,W0614:Unused import cumsum from wildcard import
+3091,0,warning,W0614:Unused import cumproduct from wildcard import
+3091,0,warning,W0614:Unused import ptp from wildcard import
+3091,0,warning,W0614:Unused import amax from wildcard import
+3091,0,warning,W0614:Unused import amin from wildcard import
+3091,0,warning,W0614:Unused import alen from wildcard import
+3091,0,warning,W0614:Unused import prod from wildcard import
+3091,0,warning,W0614:Unused import cumprod from wildcard import
+3091,0,warning,W0614:Unused import ndim from wildcard import
+3091,0,warning,W0614:Unused import rank from wildcard import
+3091,0,warning,W0614:Unused import size from wildcard import
+3091,0,warning,W0614:Unused import around from wildcard import
+3091,0,warning,W0614:Unused import round_ from wildcard import
+3091,0,warning,W0614:Unused import mean from wildcard import
+3091,0,warning,W0614:Unused import std from wildcard import
+3091,0,warning,W0614:Unused import var from wildcard import
+3091,0,warning,W0614:Unused import VisibleDeprecationWarning from wildcard import
+3091,0,warning,W0614:Unused import mu from wildcard import
+3091,0,warning,W0614:Unused import um from wildcard import
+3091,0,warning,W0614:Unused import nt from wildcard import
+
+------------------------------------
+Your code has been rated at -1.10/10
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+

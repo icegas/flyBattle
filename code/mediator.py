@@ -17,12 +17,12 @@ class Keeper(Mediator):
     def add(self, colleague):
         self._colleagues.append(colleague)
     
-'''    def getModelsPos(self):
-        self.models_pos = []
-        for colleague in self._colleagues:
-            self.models_pos.append(colleague.X)
-        self.models_pos = np.array(self.models_pos)
-'''    
+#    def getModelsPos(self):
+#        self.models_pos = []
+#        for colleague in self._colleagues:
+#            self.models_pos.append(colleague.X)
+#        self.models_pos = np.array(self.models_pos)
+    
     def UpdateModelPos(self):
         counter = 0
         for colleague in self._colleagues:
