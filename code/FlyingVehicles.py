@@ -5,7 +5,7 @@ from math import atan2, sqrt, degrees,radians
 from pyquaternion import Quaternion
 
 class Rocket(FlyingVehicle):
-
+    __Max_Vel = 3000
     #x, y, z, vx, vy, vz, m ''''' Mass of AV = MASS of fuel + MASS of AV without fuel
     def __init__(self, thrustCoff, dm, massAV, X, mediator):
         FlyingVehicle.__init__(self, thrustCoff, dm, massAV, X, mediator)
@@ -23,12 +23,20 @@ class Rocket(FlyingVehicle):
         q3 = q1 * q2
         acc = q3.rotate(F) / mass
 
+        for i in range(3):
+            if np.absolute(y[i + 3]) > self.__Max_Vel:
+                y[i + 3] = self.__Max_Vel if y[i + 3] > 0 else -self.__Max_Vel
+
+        FlyingVehicle.model(self, y, t)
+
         res =[ y[3] , y[4] , y[5], \
               acc[0], acc[1], acc[2], -self._dm] 
 
         return res
 
 class Aircraft(FlyingVehicle):
+
+    __Max_Vel = 700
 
     def __init__(self, thrustCoff, dm, massAV, X, mediator):
         FlyingVehicle.__init__(self, thrustCoff, dm, massAV, X, mediator)
@@ -66,6 +74,12 @@ class Aircraft(FlyingVehicle):
         F = np.array([self._thrust * self._dm, 0, 0])
         acc = F / mass
         
+        for i in range(3):
+            if np.absolute(y[i + 3]) > self.__Max_Vel:
+                y[i + 3] = self.__Max_Vel if y[i + 3] > 0 else -self.__Max_Vel
+
+        FlyingVehicle.model(self, y, t)
+
         res = [ y[3] , y[4] , y[5], \
               acc[0], acc[1], acc[2], -self._dm] 
 

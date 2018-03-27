@@ -41,10 +41,12 @@ class FlyingVehicle(Vehicle):
         self._thrust = thrustCoff
         self._dm = dm
         self._massAV = massAV
-    
-    
+
     def getMass(self):
         return self._massAV
 
     def model(self, y, t):
-        pass
+
+        if (y[6] < 0):
+            y[6] = 0
+            self._dm = 0
