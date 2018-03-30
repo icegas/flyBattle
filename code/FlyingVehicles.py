@@ -23,9 +23,9 @@ class Rocket(FlyingVehicle):
         q3 = q1 * q2
         acc = q3.rotate(F) / mass
 
-        for i in range(3):
-            if np.absolute(y[i + 3]) > self.__Max_Vel:
-                y[i + 3] = self.__Max_Vel if y[i + 3] > 0 else -self.__Max_Vel
+        
+        #if (y[3]**2 + y[4]**2 + y[5]**2) > self.__Max_Vel:
+         #       y[i + 3] = self.__Max_Vel if y[i + 3] > 0 else -self.__Max_Vel
 
         FlyingVehicle.model(self, y, t)
 
@@ -74,9 +74,9 @@ class Aircraft(FlyingVehicle):
         F = np.array([self._thrust * self._dm, 0, 0])
         acc = F / mass
         
-        for i in range(3):
-            if np.absolute(y[i + 3]) > self.__Max_Vel:
-                y[i + 3] = self.__Max_Vel if y[i + 3] > 0 else -self.__Max_Vel
+        #for i in range(3):
+        #    if np.absolute(y[i + 3]) > self.__Max_Vel:
+        #        y[i + 3] = self.__Max_Vel if y[i + 3] > 0 else -self.__Max_Vel
 
         FlyingVehicle.model(self, y, t)
 

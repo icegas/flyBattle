@@ -1,0 +1,23 @@
+[2018-03-29 21:57:55.251] [sharedprocess] [info] main {"machineId":"28ed2bf259d01a7b8889ea5e907ae64140cd0d57eb4440712501abc205fd8642"}
+[2018-03-29 21:57:55.364] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-29 21:57:55.467] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-29 21:57:56.804] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-29 21:57:56.811] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-29 21:57:56.826] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-29 21:57:56.930] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-29 21:57:56.949] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-29 21:57:57.119] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-29 21:57:57.126] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-29 21:57:57.202] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-29 21:58:04.300] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-29 21:58:16.643] [sharedprocess] [info] Installing extension: python
+[2018-03-29 21:58:26.483] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-29 21:58:46.037] [sharedprocess] [info] Downloaded extension: python
+[2018-03-29 21:58:54.124] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-29 21:58:57.409] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/ms-python.python-2018.3.0: ms-python.python-2018.3.0
+[2018-03-29 21:58:57.467] [sharedprocess] [info] Updated metadata of the extension: ms-python.python-2018.3.0
+[2018-03-29 21:58:57.468] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2018-03-29 21:58:57.620] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-29 21:58:57.676] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-29 22:03:18.605] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-29 22:08:23.824] [sharedprocess] [info] Scanned user extensions: 8

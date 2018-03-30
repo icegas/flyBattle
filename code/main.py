@@ -21,17 +21,17 @@ def main():
     tX =  np.array([Config.TargetAircraftConfig.x, Config.TargetAircraftConfig.y, Config.TargetAircraftConfig.z, 
     Config.TargetAircraftConfig.vx, Config.TargetAircraftConfig.vy, Config.TargetAircraftConfig.vz, Config.TargetAircraftConfig.FuelMass])
 
-    #thrustcoff, dm, mass, ax, keeper, rockeThrust, rocket_dm, rocket_mass, rocket_fuel_mass
+    #thrustcoff, FuelMassPerSecond, MassWithoutFuel, Vector, mediator 
     atackAircraft = Aircraft(Config.AtackAircraftConfig.thrustCoff, Config.AtackAircraftConfig.FuelMassPerSecond,
-    Config.AtackAircraftConfig.FuelMassPerSecond, aX, keepper)    
+    Config.AtackAircraftConfig.MassWithoutFuel, aX, keepper)    
 
     #:46,47s/AtackAircraft/TargetAircraft/g
     targetAircraft = Aircraft(Config.TargetAircraftConfig.thrustCoff, Config.TargetAircraftConfig.FuelMassPerSecond,
-    Config.TargetAircraftConfig.FuelMassPerSecond, tX, keepper)
+    Config.TargetAircraftConfig.MassWithoutFuel, tX, keepper)
     
     for i in range(Config.AtackAircraftConfig.rockets):
         atackAircraft.add( Rocket(Config.RocketConfig.thrustCoff, Config.RocketConfig.FuelMassPerSecond,
-    Config.RocketConfig.FuelMassPerSecond, rX, keepper) )
+    Config.RocketConfig.MassWithoutFuel, rX, keepper) )
     
     scene.add(atackAircraft) 
     scene.add(targetAircraft)
