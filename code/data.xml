@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<data>
+
+    <Rocket>
+         
+        <thrustCoff> 1e+7 </thrustCoff>
+        <FuelMassPerSecond> 0.05 </FuelMassPerSecond>
+        <MassWithoutFuel> 500.0 </MassWithoutFuel>
+        <FuelMass> 1000.0 </FuelMass>
+        <x> 3800.0 </x>
+        <y> 4000.0 </y>
+        <z> 4200.0 </z>
+        <vx> 0.0 </vx>
+        <vy> 0.0 </vy>
+        <vz> 0.0 </vz>
+
+    </Rocket>
+
+    <AtackAircraft>
+         
+        <thrustCoff> 300.0 </thrustCoff>
+        <FuelMassPerSecond> 0.05 </FuelMassPerSecond>
+        <MassWithoutFuel> 3000.0 </MassWithoutFuel>
+        <FuelMass> 1000.0 </FuelMass>
+        <x> 4000.0 </x>
+        <y> 4000.0 </y>
+        <z> 4000.0 </z>
+        <vx> 0.0 </vx>
+        <vy> 0.0 </vy>
+        <vz> 0.0 </vz>
+        <rockets> 2 </rockets>
+
+    </AtackAircraft>
+
+    <TargetAircraft>
+         
+        <thrustCoff> 300.0 </thrustCoff>
+        <FuelMassPerSecond> 0.05 </FuelMassPerSecond>
+        <MassWithoutFuel> 3000.0 </MassWithoutFuel>
+        <FuelMass> 1000.0 </FuelMass>
+        <x> 4000.0 </x>
+        <y> 4200.0 </y>
+        <z> 4600.0 </z>
+        <vx> 0.0 </vx>
+        <vy> 0.0 </vy>
+        <vz> 0.0 </vz>
+
+    </TargetAircraft>
+
+    <Scene> 
+    
+        <DeltaTime> 0.001 </DeltaTime>
+        <BlastRadius> 5.0 </BlastRadius>
+
+    </Scene>
+
+</data>
