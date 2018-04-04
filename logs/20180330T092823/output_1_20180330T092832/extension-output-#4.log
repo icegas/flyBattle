@@ -1,0 +1,395 @@
+##########Linting Output - pylint##########
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+32,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.73/10 (previous run: 9.73/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.74/10 (previous run: 9.73/10, +0.01)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.79/10 (previous run: 9.74/10, +0.05)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.79/10 (previous run: 9.79/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+59,4,warning,W0612:Unused variable 'T'
+
+------------------------------------------------------------------
+Your code has been rated at 9.59/10 (previous run: 9.79/10, -0.20)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+60,0,error,E0001:invalid syntax (<string>, line 60)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+62,22,error,E1101:Instance of 'Keeper' has no 'res' member
+66,22,error,E1101:Instance of 'Keeper' has no 'res' member
+33,8,warning,W0612:Unused variable 'i'
+59,4,warning,W0612:Unused variable 'T'
+
+------------------------------------------------------------------
+Your code has been rated at 7.55/10 (previous run: 9.59/10, -2.04)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+70,22,error,E1101:Instance of 'Scene' has no 'X' member; maybe '_X'?
+33,8,warning,W0612:Unused variable 'i'
+59,4,warning,W0612:Unused variable 'T'
+
+------------------------------------------------------------------
+Your code has been rated at 8.57/10 (previous run: 7.55/10, +1.02)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+59,4,warning,W0612:Unused variable 'T'
+
+------------------------------------------------------------------
+Your code has been rated at 9.59/10 (previous run: 8.57/10, +1.02)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+59,4,warning,W0612:Unused variable 'T'
+
+------------------------------------------------------------------
+Your code has been rated at 9.59/10 (previous run: 9.59/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.59/10, +0.20)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+62,0,error,E0001:invalid syntax (<string>, line 62)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+62,0,error,E0001:invalid syntax (<string>, line 62)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+33,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module testin
+25,15,error,E0602:Undefined variable 'v2'
+
+-------------------------------------------------------------------
+Your code has been rated at 5.83/10 (previous run: 10.00/10, -4.17)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 5.83/10, +4.17)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module testin
+23,0,error,E0001:invalid syntax (<string>, line 23)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module testin
+23,0,error,E0001:invalid syntax (<string>, line 23)
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module testin
+27,6,error,E0602:Undefined variable 'v3'
+29,20,error,E0602:Undefined variable 'v3'
+
+-------------------------------------------------------------------
+Your code has been rated at 2.31/10 (previous run: 10.00/10, -7.69)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 2.31/10, +7.69)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module testin
+26,5,error,E1102:q2.conjugate is not callable
+26,5,error,E1102:q2.conjugate is not callable
+
+-------------------------------------------------------------------
+Your code has been rated at 2.86/10 (previous run: 10.00/10, -7.14)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 2.86/10, +7.14)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module FlyingVehicles
+23,28,error,E0602:Undefined variable 'q'
+
+-------------------------------------------------------------------
+Your code has been rated at 9.07/10 (previous run: 10.00/10, -0.93)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.07/10, +0.93)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+34,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.82/10 (previous run: 9.80/10, +0.02)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+35,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.82/10 (previous run: 9.82/10, +0.01)
+
+##########Linting Output - pylint##########
+No config file found, using default configuration
+************* Module main
+35,8,warning,W0612:Unused variable 'i'
+
+------------------------------------------------------------------
+Your code has been rated at 9.82/10 (previous run: 9.82/10, +0.00)
+

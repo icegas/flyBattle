@@ -4,13 +4,13 @@
 
     <Rocket>
          
-        <thrustCoff> 1e+7 </thrustCoff>
+        <thrustCoff> 1e+6 </thrustCoff>
         <FuelMassPerSecond> 0.05 </FuelMassPerSecond>
         <MassWithoutFuel> 500.0 </MassWithoutFuel>
         <FuelMass> 1000.0 </FuelMass>
-        <x> 3800.0 </x>
+        <x> 4000.0 </x>
         <y> 4000.0 </y>
-        <z> 4200.0 </z>
+        <z> 4000.0 </z>
         <vx> 0.0 </vx>
         <vy> 0.0 </vy>
         <vz> 0.0 </vz>
@@ -35,13 +35,13 @@
 
     <TargetAircraft>
          
-        <thrustCoff> 300.0 </thrustCoff>
+        <thrustCoff> 30.0 </thrustCoff>
         <FuelMassPerSecond> 0.05 </FuelMassPerSecond>
         <MassWithoutFuel> 3000.0 </MassWithoutFuel>
         <FuelMass> 1000.0 </FuelMass>
-        <x> 4000.0 </x>
-        <y> 4200.0 </y>
-        <z> 4600.0 </z>
+        <x> 4305.0 </x>
+        <y> 4205.0 </y>
+        <z> 4010.0 </z>
         <vx> 0.0 </vx>
         <vy> 0.0 </vy>
         <vz> 0.0 </vz>
@@ -51,7 +51,7 @@
     <Scene> 
     
         <DeltaTime> 0.001 </DeltaTime>
-        <BlastRadius> 5.0 </BlastRadius>
+        <BlastRadius> 1.0 </BlastRadius>
 
     </Scene>
 

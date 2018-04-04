@@ -19,13 +19,10 @@ class Rocket(FlyingVehicle):
         mass = self._massAV + y[6]
         F = np.array([self._thrust * self._dm, 0, 0])
         q1 = Quaternion(axis = [0, 0, 1], angle = np.arctan2(self._mediator.X[8] - y[1], self._mediator.X[7] - y[0]))
-        q2 = Quaternion(axis=[0, 1, 0], angle = np.arctan2( -(self._mediator.X[9] - y[2]), sqrt( (self._mediator.X[7] - y[0])**2 + (self._mediator.X[8] - y[1])**2 ) ) ) 
-        q3 = q1 * q2
-        acc = q3.rotate(F) / mass
+        q2 = Quaternion(axis=q1.rotate([0, 1, 0]), angle = np.arctan2( (self._mediator.X[9] - y[2]), sqrt( (self._mediator.X[7] - y[0])**2 + (self._mediator.X[8] - y[1])**2 ) ) ) 
+        q3 = q2.conjugate * q1
 
-        
-        #if (y[3]**2 + y[4]**2 + y[5]**2) > self.__Max_Vel:
-         #       y[i + 3] = self.__Max_Vel if y[i + 3] > 0 else -self.__Max_Vel
+        acc = q3.rotate(F) / mass
 
         FlyingVehicle.model(self, y, t)
 
@@ -74,10 +71,6 @@ class Aircraft(FlyingVehicle):
         F = np.array([self._thrust * self._dm, 0, 0])
         acc = F / mass
         
-        #for i in range(3):
-        #    if np.absolute(y[i + 3]) > self.__Max_Vel:
-        #        y[i + 3] = self.__Max_Vel if y[i + 3] > 0 else -self.__Max_Vel
-
         FlyingVehicle.model(self, y, t)
 
         res = [ y[3] , y[4] , y[5], \

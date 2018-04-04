@@ -3,6 +3,9 @@ from scene import Scene
 from mediator import Keeper
 from FlyingVehicles import Aircraft, Rocket
 from config import Config
+from matplotlib import pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+import matplotlib as mpl
 
 def main():
     Config.load()
@@ -38,7 +41,9 @@ def main():
     scene.add(atackAircraft.dettachRocket())
         
     while not scene.simulate():
-        pass
+        print("Target: {}".format(keepper.X[7:10]))
+        print("Rocket: {}".format(keepper.X[14:17]))
+    #    pass
 
     print("The Target is striked\n")
     print("Last Vector:")
@@ -54,6 +59,31 @@ def main():
     print(keepper.X[14:17])
     print("---------------------------------------------------------------------")
     print("time: {}\n".format(scene.T[-1]))
+
+    
+    T = np.linspace(0, float(scene.T[-1]), scene.count + 1)
+    a = 221
+    plt.subplot(a)
+    plt.plot(scene.res[: , 14], scene.res[:, 15], 'r', scene.res[:, 7], scene.res[:, 8])
+    plt.title('Rocket X, Target X')
+
+    plt.subplot(222)
+    plt.plot(scene.res[:, 14], scene.res[: , 16], 'r', scene.res[:, 7], scene.res[:, 9]) 
+    plt.title('Rocket Y, Target Y')
+
+    plt.subplot(223)
+    plt.plot(scene.res[:, 15], scene.res[:, 16], 'r', scene.res[:, 8], scene.res[:, 9])
+    plt.title('Rocket Z, Target Z')
+
+    mpl.rcParams['legend.fontsize'] = 10
+    fig = plt.figure()
+    ax = fig.gca(projection = '3d')
+    ax.plot(scene.res[:, 14], scene.res[:, 15], scene.res[:, 16])#, scene.res[:, 7], scene.res[:, 8], scene.res[:, 9])
+    ax.plot(scene.res[:, 7], scene.res[:, 8], scene.res[:, 9])
+    ax.legend()
+
+    plt.show()
+    
 
 if __name__ == '__main__':
     main()

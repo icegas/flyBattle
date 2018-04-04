@@ -1,0 +1,10 @@
+[2018-03-30 09:28:23.513] [main] [info] update#setState idle
+[2018-03-30 09:28:53.530] [main] [info] update#setState checking for updates
+[2018-03-30 09:28:53.742] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+[2018-03-30 09:28:53.743] [main] [info] update#setState idle
+[2018-03-30 10:28:53.596] [main] [info] update#setState checking for updates
+[2018-03-30 10:28:53.625] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+[2018-03-30 10:28:53.631] [main] [info] update#setState idle
+[2018-03-30 11:28:53.696] [main] [info] update#setState checking for updates
+[2018-03-30 11:28:53.723] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+[2018-03-30 11:28:53.728] [main] [info] update#setState idle

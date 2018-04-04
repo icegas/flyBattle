@@ -35,6 +35,7 @@ class Scene(Component):
         else:
             return False
 
+    count = 0
     def simulate(self):
 
         if not len(self.res):
@@ -45,5 +46,8 @@ class Scene(Component):
         self._t0 = self._t0 + self._dt
         self.res = np.vstack((self.res, self.result[1]))
 
+        #self._mediator.X = self.result[1]
+
+        self.count += 1
         return self._checkOnHit(self._mediator.X[14 : 17], self._mediator.X[7 : 10])
 

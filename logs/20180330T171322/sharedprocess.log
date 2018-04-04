@@ -1,0 +1,36 @@
+[2018-03-30 17:13:28.502] [sharedprocess] [info] main {"machineId":"28ed2bf259d01a7b8889ea5e907ae64140cd0d57eb4440712501abc205fd8642"}
+[2018-03-30 17:13:28.940] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:13:29.701] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-30 17:13:32.153] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:13:32.166] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:13:32.183] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:13:32.294] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-30 17:13:32.304] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-30 17:13:32.535] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:13:32.586] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-30 17:13:36.527] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:13:37.873] [sharedprocess] [info] Installing extension: python
+[2018-03-30 17:13:37.884] [sharedprocess] [info] Installing extension: vim
+[2018-03-30 17:13:40.329] [sharedprocess] [info] Downloaded extension: vim
+[2018-03-30 17:13:41.977] [sharedprocess] [info] Downloaded extension: python
+[2018-03-30 17:13:45.557] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/vscodevim.vim-0.11.3: vscodevim.vim-0.11.3
+[2018-03-30 17:13:45.647] [sharedprocess] [info] Updated metadata of the extension: vscodevim.vim-0.11.3
+[2018-03-30 17:13:45.648] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
+[2018-03-30 17:13:45.787] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:13:45.858] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-30 17:13:50.397] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/ms-python.python-2018.3.1: ms-python.python-2018.3.1
+[2018-03-30 17:13:50.479] [sharedprocess] [info] Updated metadata of the extension: ms-python.python-2018.3.1
+[2018-03-30 17:13:50.479] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2018-03-30 17:13:50.624] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:13:50.689] [sharedprocess] [info] Scanned system extensions: 65
+[2018-03-30 17:13:51.893] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:14:20.796] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:18:36.697] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:23:37.720] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:28:47.949] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:31:05.823] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:33:54.136] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:39:00.291] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:44:01.566] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:49:06.754] [sharedprocess] [info] Scanned user extensions: 8
+[2018-03-30 17:54:23.520] [sharedprocess] [info] Scanned user extensions: 8

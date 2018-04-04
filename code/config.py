@@ -66,8 +66,3 @@ class Config:
             name = root.find('Scene')
             Config.SceneConfig.DeltaTime = float(name.find('DeltaTime').text)
             Config.SceneConfig.BlastRadius = float(name.find('BlastRadius').text)
-
-#root = ET.parse("/root/Desktop/studying/flyBattle/code/data.xml").getroot()
-#rocket = root.find('Rocket')
-#d = rocket.find('x')
-#d = d.text
