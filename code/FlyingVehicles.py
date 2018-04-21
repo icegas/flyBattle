@@ -9,10 +9,10 @@ class Rocket(FlyingVehicle):
     #x, y, z, vx, vy, vz, m ''''' Mass of AV = MASS of fuel + MASS of AV without fuel
     def __init__(self, thrustCoff, dm, massAV, X, mediator):
         FlyingVehicle.__init__(self, thrustCoff, dm, massAV, X, mediator)
-        self.bins = BINS(X[: -1])
+        self.add(BINS(X[: -1], self._mediator))
         
-    def add(self):
-        pass
+    #def add(self):
+     #   pass
 
     def model(self, y, t):
         
@@ -37,23 +37,17 @@ class Aircraft(FlyingVehicle):
 
     def __init__(self, thrustCoff, dm, massAV, X, mediator):
         FlyingVehicle.__init__(self, thrustCoff, dm, massAV, X, mediator)
-        self.bins = BINS(X[: -1])
-        self.gnss = GNSS(X[: -1]) 
+        self.add(BINS(X[: -1], self._mediator))
+        self.add(GNSS(X[: -1], self._mediator)) 
         self._mediator.subseq = np.append(self._mediator.subseq, len(X))
         self._mediator.X = np.append(self._mediator.X, X)
 
-    def setBINS(self, bins):
-        self.bins = bins
-    
-    def setGNSS(self, gnss):
-        self.gnss = gnss
-    
     def add(self, component):
-        if not type(component) is Rocket:
-            print("Erorr: Only rocket can be added to aircraft")
-        else:
+        if type(component) is Rocket:
             super(Aircraft, self).add(component)
             self._massAV += component.getMass()
+        else:
+            super().add(component)
             
     def dettachRocket(self):
         rocket = self._components.pop()

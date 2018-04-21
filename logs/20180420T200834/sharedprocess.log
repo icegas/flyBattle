@@ -1,0 +1,28 @@
+[2018-04-20 20:08:40.139] [sharedprocess] [info] main {"machineId":"28ed2bf259d01a7b8889ea5e907ae64140cd0d57eb4440712501abc205fd8642"}
+[2018-04-20 20:08:40.605] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:08:41.367] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-20 20:08:42.689] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:08:42.696] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:08:42.708] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:08:42.874] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-20 20:08:42.888] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-20 20:08:43.130] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:08:43.139] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:08:43.186] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-20 20:08:51.399] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:08:53.090] [sharedprocess] [info] Installing extension: vim
+[2018-04-20 20:08:55.033] [sharedprocess] [info] Downloaded extension: vim
+[2018-04-20 20:08:59.273] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/vscodevim.vim-0.11.4: vscodevim.vim-0.11.4
+[2018-04-20 20:08:59.396] [sharedprocess] [info] Updated metadata of the extension: vscodevim.vim-0.11.4
+[2018-04-20 20:08:59.398] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
+[2018-04-20 20:08:59.614] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:08:59.695] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-20 20:09:33.206] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:13:51.593] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:14:43.088] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:14:54.880] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:18:51.974] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:23:52.143] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:28:52.330] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:33:53.480] [sharedprocess] [info] Scanned user extensions: 8
+[2018-04-20 20:38:53.647] [sharedprocess] [info] Scanned user extensions: 8

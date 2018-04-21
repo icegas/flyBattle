@@ -32,7 +32,7 @@ def main():
     targetAircraft = Aircraft(Config.TargetAircraftConfig.thrustCoff, Config.TargetAircraftConfig.FuelMassPerSecond,
     Config.TargetAircraftConfig.MassWithoutFuel, tX, keepper)
     
-    for i in range(Config.AtackAircraftConfig.rockets):
+    for _ in range(Config.AtackAircraftConfig.rockets):
         atackAircraft.add( Rocket(Config.RocketConfig.thrustCoff, Config.RocketConfig.FuelMassPerSecond,
     Config.RocketConfig.MassWithoutFuel, rX, keepper) )
     

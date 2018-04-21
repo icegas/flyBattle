@@ -39,8 +39,8 @@
         <FuelMassPerSecond> 0.05 </FuelMassPerSecond>
         <MassWithoutFuel> 3000.0 </MassWithoutFuel>
         <FuelMass> 1000.0 </FuelMass>
-        <x> 4305.0 </x>
-        <y> 4205.0 </y>
+        <x> 4015.0 </x>
+        <y> 4025.0 </y>
         <z> 4010.0 </z>
         <vx> 0.0 </vx>
         <vy> 0.0 </vy>
